@@ -12,7 +12,7 @@ import retrofit2.http.POST;
 
 public interface ApiInterface {
 
-    @POST("readcontacts.php")
+    @POST("ReadContacts.php")
     Call<List<Contact>> getContacts();
 
 }
